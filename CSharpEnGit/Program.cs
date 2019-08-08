@@ -10,7 +10,8 @@ namespace CSharpEnGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola Mundo!");
+            string mensaje = "Saludos";
+            Console.WriteLine("Hola Mundo! "+mensaje);
             Console.ReadKey();
         }
     }
